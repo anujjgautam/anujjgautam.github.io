@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MentHub Councelling</title>
+        <link rel="stylesheet" href="style.css">
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Serif&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/dbf8a5210f.js" crossorigin="anonymous"></script>
+    </head> 
+    <body>
+        <!----------Header------------>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/menthub_logo.png"></a>
+                <div class="nav-links" id="navLinks">
+		           <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>                
+                </div>
+	            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+        
+        <!------------Content------------->
+        
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21451.354652588765!2d77.20636550966834!3d28.612742557791307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1635058376278!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>27 - West Block, Rajpath</h5>
+                            <p>New Delhi, IN</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>(+1) 0987654321</h5>
+                            <p>Monday-Friday, 10AM to 5PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>info@menthub.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your Name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter your Subject" required>
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <!----------Footer------------>
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>MentHub is a platform for people to get direction in their careers from people who best understand their situation.<br>MentHub is an early stage startup based in Canada, started by Atul (IIT rank 7) and Pooja.</p>
+            
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <span class="fa fa-linkedin"></span>
+            </div>
+            <p>Built With <i class="fa fa-heart"></i> by anujjgautam</p>
+        </section>
+        
+        
+        <!-----------Java Script for Toggle Menu---------->
+        <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }	
+
+        </script>    
+    </body>
+</html>
+
+
+
+
+
+
+
+

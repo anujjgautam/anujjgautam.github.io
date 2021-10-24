@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MentHub Councelling</title>
+        <link rel="stylesheet" href="style.css">
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Serif&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/dbf8a5210f.js" crossorigin="anonymous"></script>
+    </head> 
+    <body>
+        <!----------Header------------>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/menthub_logo.png"></a>
+                <div class="nav-links" id="navLinks">
+		           <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>                
+                </div>
+	            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>All Latest Blog</h1>
+        </section>
+        
+        <!---------Content------------>
+        
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/guide.png">
+                    <h2>What Does a Career Guide Do?</h2>
+                    <p>It can be noticed that most people seek personal advice related to their careers from related people. Friends or relatives are often the prime sources of information. They are not the villains of your life. However, the equipment of resources forms a paramount concern here. Would you rather trust someone with enough validity or bond? The answer will be the latter option. The scope of career guidance begins from this pivotal point. Thus, let us look at the complete details in this blog.</p>
+                    <br>
+                    <p>As the name suggests, career guides are people who furnish practical advice to people facing occupation obstacles. The guidance often incorporates understanding personality traits, finding the best colleges, discovering a wide array of opportunities, and activating an action plan. </p>
+                    <br>
+                    <p>Many people avoid the utility of a career guide and get stuck in a phase. There are a plethora of resources available online which get subjected to interpretation. Thus, analysis and discussion often become daunting tasks. Moreover, one cannot seek personalized advice in the best way possible.Unspecialized people or resources can come up with obscured or inaccurate information. Do not get perplexed between expert advice and random ones. The common goal of a career guide is to assist an individual about their professional or academic life. After the global pandemic, the necessity of career advice has skyrocketed.</p>
+                    <br>
+                    <p>Many job roles have lost their relevance while others have peaked up. It is indeed crucial to know all recent trends and prepare accordingly. Career guides also provide inside information about career exploration or job descriptions. </p>
+                    <br>
+                    <p>The first and foremost rule of career guidance is to approach a qualified guide. It is crucial to hold relevant certifications for the professional to uphold their validity. Expertise and skills add brownie points to the whole process. Thus, do not ignore this aspect at any cost. Are you one of those people who feel bothered by marks judgment? Or, do unsolicited opinions by relatives concern you? Leave all your worries as the career guidance strives to resolve all of them. A career guide provides a secure environment without any biases. We as individuals do not render sufficient information regarding circumstances. On the other side, counsellors or career guides have dealt with a large number of people. They regularly devise strategies for a wide range of issues. Thus, their expertise cannot get challenged.</p>
+                    
+                    
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea row="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                    
+                    
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Crypto Market</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Management</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>Aerospace</span>
+                        <span>18</span>
+                    </div>
+                    <div>
+                        <span>Financial Management</span>
+                        <span>25</span>
+                    </div>
+                    <div>
+                        <span>Automobiles</span>
+                        <span>13</span>
+                    </div>
+                    <div>
+                        <span>Stock Market</span>
+                        <span>07</span>
+                    </div>
+                </div>
+            </div>
+        </section>       
+        
+        <!----------Footer------------>
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>MentHub is a platform for people to get direction in their careers from people who best understand their situation.<br>MentHub is an early stage startup based in Canada, started by Atul (IIT rank 7) and Pooja.</p>
+            
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <span class="fa fa-linkedin"></span>
+            </div>
+            <p>Built With <i class="fa fa-heart"></i> by anujjgautam</p>
+        </section>
+        
+        
+        <!-----------Java Script for Toggle Menu----------->
+        <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }	
+
+        </script>    
+    </body>
+</html>
+
+
+
+
+
+
+
+
